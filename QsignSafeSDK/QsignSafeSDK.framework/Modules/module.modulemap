@@ -1,0 +1,6 @@
+framework module QsignSafeSDK {
+  umbrella header "QsignSafeSDK.h"
+
+  export *
+  module * { export * }
+}
