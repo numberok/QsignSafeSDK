@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HSLQsignSafeSdk"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "数字空间安全密钥"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/HSLQsignSafeSdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/numberok/QsignSafeSDK.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'QsignSafeSDK/QsignSafeSDK.framework'
 
 # 项目配置，注意这里的SDK不支持模拟器
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
